@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/animated_icon/animated_icon.dart';
+import 'package:flutter_widgets/slider/slider.dart';
 import 'package:flutter_widgets/stack_widget/stack_widget.dart';
 import 'package:flutter_widgets/text_input/text_input.dart';
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyTextInput(),
+      home: MySlider(),
       theme: ThemeData(primarySwatch: Colors.deepPurple),
     );
   }
