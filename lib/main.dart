@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/alert_dialog/alert_dialog.dart';
 import 'package:flutter_widgets/animated_container.dart';
 import 'package:flutter_widgets/tab_bar/tab_bar.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyAnimatedContainer(),
+      home: MyAlertDialog(),
       theme: ThemeData(primarySwatch: Colors.deepPurple),
     );
   }
