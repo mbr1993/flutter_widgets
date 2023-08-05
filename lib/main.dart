@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/animated_icon/animated_icon.dart';
-import 'package:flutter_widgets/slider/slider.dart';
-import 'package:flutter_widgets/stack_widget/stack_widget.dart';
-import 'package:flutter_widgets/text_input/text_input.dart';
+import 'package:flutter_widgets/date_and_time_picker/date_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MySlider(),
+      home: MyDataPicker(),
       theme: ThemeData(primarySwatch: Colors.deepPurple),
     );
   }
