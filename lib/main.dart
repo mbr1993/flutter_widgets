@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/alert_dialog/alert_dialog.dart';
-import 'package:flutter_widgets/animated_container.dart';
-import 'package:flutter_widgets/tab_bar/tab_bar.dart';
+import 'package:flutter_widgets/stack_widget/stack_widget.dart';
+import 'package:flutter_widgets/text_input/text_input.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyAlertDialog(),
+      home: MyTextInput(),
       theme: ThemeData(primarySwatch: Colors.deepPurple),
     );
   }
