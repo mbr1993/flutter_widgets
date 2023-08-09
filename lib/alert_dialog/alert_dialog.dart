@@ -11,25 +11,26 @@ class MyAlertDialog extends StatefulWidget {
 class _MyAlertDialogState extends State<MyAlertDialog> {
   void _showDialog() {
     showDialog(
-        context: context,
-        builder: (context) {
-          return CupertinoAlertDialog(
-            title: Text("Title"),
-            content: Text("More Info"),
-            actions: [
-              MaterialButton(
-                onPressed: () {},
-                child: Text("Ok"),
-              ),
-              MaterialButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text("Cancel"),
-              ),
-            ],
-          );
-        });
+      context: context,
+      builder: (context) {
+        return CupertinoAlertDialog(
+          title: Text("Title"),
+          content: Text("More Info"),
+          actions: [
+            MaterialButton(
+              onPressed: () {},
+              child: Text("Ok"),
+            ),
+            MaterialButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("Cancel"),
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override
