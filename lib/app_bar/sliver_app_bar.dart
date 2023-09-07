@@ -12,8 +12,8 @@ class MySliverAppBar extends StatelessWidget {
           //sliver Appbar
           SliverAppBar(
             backgroundColor: Colors.deepPurple,
-            leading: Icon(Icons.menu),
-            title: Text("Sliver App Bar"),
+            leading: const Icon(Icons.menu),
+            title: const Text("Sliver App Bar"),
             expandedHeight: 300,
             flexibleSpace:
                 FlexibleSpaceBar(background: Container(color: Colors.pink)),
